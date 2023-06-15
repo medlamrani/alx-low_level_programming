@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Print with puts function
+ * Description : A C program Print with puts function
  *
- * return 0
+ * Return : Always 0 (Success)
  */
 
 
