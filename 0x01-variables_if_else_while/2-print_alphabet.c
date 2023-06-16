@@ -4,7 +4,7 @@
  * only using putchar
  * Return: Always return 0
 */
-int main()
+int main(void)
 {
 	char letter = 'a';
 
@@ -16,5 +16,5 @@ int main()
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
