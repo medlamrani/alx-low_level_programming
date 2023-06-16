@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - print alphabets in lowercase
- * then in UPPERCASE using only putchar 3 times
- * Result: Always 0 (Success)
+ * then in UPPERCASE
+ * Return: Always return 0
 */
 int main(void)
 {
