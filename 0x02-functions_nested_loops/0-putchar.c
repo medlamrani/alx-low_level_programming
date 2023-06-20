@@ -7,14 +7,14 @@
 int main(void)
 {
 	char mot[] = "_putchar";
-	int let=0;
+	int let = 0;
 
-	while(let < 8)
+	while (let < 8)
 	{
 		_putchar(mot[let]);
 		let++;
 	}
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
