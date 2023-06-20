@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main -Entry Point
  * Description: print _putchar.
@@ -6,7 +6,15 @@
 */
 int main(void)
 {
-	printf("_putchar");
+	char mot[] = "_putchar";
+	int let=0;
+
+	while(let < 8)
+	{
+		_putchar(mot[let]);
+		let++;
+	}
+	_putchar("\n");
 
 	return(0);
 }
