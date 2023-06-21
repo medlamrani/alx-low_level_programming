@@ -5,7 +5,7 @@
  *
  * @n: take input from other function
  *
- * return: 1 if n is greater than zero
+ * Return: 1 if n is greater than zero
  *         0 if n is zero
  *         -1 if n is less than zero
 */
