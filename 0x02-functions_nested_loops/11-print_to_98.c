@@ -8,6 +8,7 @@
 void print_to_98(int n)
 {
 	int num;
+
 	num = n;
 	if (num < 98)
 	{
