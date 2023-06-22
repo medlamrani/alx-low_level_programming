@@ -8,13 +8,20 @@ void print_line(int n)
 {
 	int start;
 
-	for (start = 0; start < n; start++)
+	if (n <= 0)
 	{
-		if (n <= 0)
-		{
-			putchar('\n');
-		}
-		putchar('-');
+		putchar('\n');
 	}
-	putchar('\n');
+	else
+	{
+		for (start = 0; start < n; start++)
+		{
+			if (n <= 0)
+			{
+				putchar('\n');
+			}
+			putchar('-');
+		}
+		putchar('\n');
+	}
 }
