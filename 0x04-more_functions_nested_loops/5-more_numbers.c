@@ -1,6 +1,7 @@
 #include"main.h"
 /**
- * more_numbers - print numbers from 0 to 14 for 10 time
+ * more_numbers - print numbers from 0 to 14
+ * for 10 time
 */
 
 void more_numbers(void)
