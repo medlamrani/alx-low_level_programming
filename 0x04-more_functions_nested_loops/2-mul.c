@@ -5,10 +5,9 @@
  * @a: first number 
  * @b: second number
  *
- * Return: Always 0
+ * Return: return results
 */
 int mul(int a , int b)
 {
-	int result = a * b;
-	return (0);
+	return (a * b);
 }
