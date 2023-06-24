@@ -6,7 +6,7 @@
 */
 void print_triangle(int size)
 {
-	int line, sim;
+	int a, b;
 
 	if (size <= 0)
 	{
@@ -14,11 +14,11 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (line = 1; line <= size; line++)
+		for (a = 1; a <= size; a++)
 		{
-			for (sim = 1; sim <= size; line++)
+			for (b = 1; b <= size; b++)
 			{
-				if ((sim + line) <= size)
+				if ((a + b) <= size)
 				{
 					putchar(' ');
 				}
