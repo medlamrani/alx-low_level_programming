@@ -3,7 +3,7 @@
  * main - print number from 0 to 100 except when the num is div by 3 print Fizz
  * or 5 print Buzz or both print FizzBuzz
  *
- * Return: Always return 0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
