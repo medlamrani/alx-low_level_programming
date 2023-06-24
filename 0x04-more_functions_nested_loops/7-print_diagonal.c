@@ -18,15 +18,10 @@ void print_diagonal(int n)
 		{
 			for (space = 1; space <= line; space++)
 			{
-				if (line == space)
-				{
-					_putchar(92);
-				}
-				else
-				{
-					_putchar(' ');
-				}
+				_putchar(' ');
 			}
+			_putchar(92);
 			_putchar('\n');
+		}
 	}
 }
